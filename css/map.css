@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #8D8D99;
+	letter-spacing: 1px;
+	font-family: 'Yu Mincho',YuMincho,/* Windows用 */serif;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/**************************************************************/
+
+#index {
+	padding-left: 70px;
+	width: calc (100% - 70px);
+	height: 130px;
+	display: flex;
+	align-items: center;
+}
+
+#index a {
+	text-decoration: none;
+	color: #8D8D99;
+}
+
+#index a,#index span {
+	border-bottom: 1px solid #8D8D99;
+	font-size: 14px;
+	line-height: 28px;
+	font-family: "century gothic",sans-serif;
+	font-weight: bold;
+}
+
+#index span {
+	padding-bottom: 6px;
+}
+
+/**************************************************************/
+
+#title {
+	width: 100%;
+	height: 260px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#title h1 {
+	font-size: 24px;
+	line-height: 35px;
+	border-bottom: 1px solid #8D8D99;
+	font-family: "century gothic",sans-serif;
+	font-weight: bold;
+}
+
+/**************************************************************/
+
+#map {
+	margin: 19px 0 87px 0;
+	padding-bottom: 260px;
+	width: 100%;
+	background-image: url(../img/map_bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	height: auto;
+}
+
+#map_flex {
+	margin: 0 auto;
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+}
+.gray {
+	padding: 20px 0 7px 0;
+	text-decoration: none;
+	border-bottom: 1px solid #8D8D99;
+	font-size: 14px;
+	line-height: 46px;
+	color: #8D8D99;
+}
+
+.gold a {
+	padding: 20px 40px 7px 0;
+	text-decoration: none;
+	border-bottom: 1px solid #DAA520;
+	font-size: 24px;
+	line-height: 46px;
+	color: #DAA520;
+	font-family: "century gothic",sans-serif;
+	font-weight: bold;
+}
+
+.regu {
+	font-family: "century gothic",sans-serif;
+	font-weight: regular;
+}
+
+.a ul {
+	padding-left: 30px;
+}
+
+.a,.b {
+	width: 27%;
+}
+
+.c {
+	width: 20%;
+}
+
+.mar {
+	margin-top: 71px;
+}
+
+.mar2 {
+	margin: 11px 0 0 13px;
+}
+
+#ag {
+	line-height: 48px;
+}
+
+/*******　ul のstyle　********************************************/
+
+.list:before {
+	margin: 0 10px 3px 0;
+    content:  "";     /* 空の要素作成 */
+    width:  5px;               /* 幅指定 */
+    height:  1px;              /* 高さ指定 */
+    display:  inline-block;     /* インラインブロックにする */
+    background-color: #8D8D99;  /* 背景色指定 */
+
+}
+
+/*******　＞ のstyle　********************************************/
+
+.arw {
+  position: relative;
+  display: inline-block;
+  padding: 10p;
+}
+
+.arw::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px #DAA520;
+  border-right: solid 2px #DAA520;
+  position: absolute;
+  left: 20px;
+  top: -10px;
+}
+
+.arw.arw_r::before {
+  transform: rotate(45deg);
+}

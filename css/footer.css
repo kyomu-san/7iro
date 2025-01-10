@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #8D8D99;
+	letter-spacing: 3px;
+	font-family: 'Yu Mincho',YuMincho,/* Windows用 */serif;
+}
+
+#footer {
+	width: 100%;
+	height: 520px;
+	background: #E6E6FA;
+}
+
+#ft_box {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	color: #8D8D99;
+}
+
+#ft_cg,#ft_cm,#ft_pp {
+	margin-top: 85px;
+}
+
+#ft_cg ul,#ft_cm ul {
+	padding-top: 30px;
+}
+
+#ft_cg {
+	width: 20%;
+}
+
+#ft_cm {
+	margin-left: 100px;
+	width: 20%;
+}
+
+.icon {
+	margin-right: 18px;
+	width: 25px;
+	height: auto;
+}
+
+.yt {
+	width: 30px;
+	height: auto;
+}
+
+#ft_pp {
+	margin-left: 230px;
+	width: 23%;
+}
+
+#ft_pp img {
+	margin-top: 40px;
+	width: 200px;
+	height: auto;
+}
+
+#ft_box h5 {
+	font-size: 18px;
+	line-height: 40px;
+	border-bottom: 1px solid #8D8D99;
+}
+
+#ft_box ul {
+	list-style-type: none;
+}
+
+#ft_box a {
+	text-decoration: none;
+	color: #8D8D99;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+#sns {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+#ft_pp img {
+	margin: px;
+}
+
+#cr {
+	margin: 60px auto 0;
+	width: 70%;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.bold {
+	font-family: "century gothic",sans-serif;
+	font-weight: bold;
+}
+
+.regu {
+	font-family: "century gothic",sans-serif;
+	font-weight: regular;
+}
+
+/*** TOPにもどる ***********************************************/
+
+.rtn {
+	position: fixed;
+	z-index: 10000;
+	right: 60px;
+	bottom: 60px;
+	transform: rotate(-40deg);
+}
+
+.arrow {
+	position: relative;
+	padding-left: 30px;
+}
+
+#rtn a {
+	display: block;
+	width: 30px;
+	height: 40px;
+}
+
+.arrow::before { /* くの字の表示設定 */
+	content: "";
+	position: absolute;
+	bottom: -19px; /* 要素の下からの距離 */
+	left: 60px;
+	width: 14px;
+	height: 14px;
+	border-right: 1px solid #FFF;
+	transform: rotate(-5deg); /* 棒の角度調整 */
+}
+ 
+.arrow::after { /* 棒の表示設定 */
+	content: "";
+	position: absolute;
+	bottom: -18px; /* 要素の下からの距離 */
+	left: 46px;
+	width: 35px;
+	height: 1px;
+	background: #FFF;
+	transform: rotate(130deg); /* 棒の角度調整 */
+}
+
+

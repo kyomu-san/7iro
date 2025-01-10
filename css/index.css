@@ -1,0 +1,669 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/********************************************/
+/***************************** 全体指定 *****/
+/********************************************/
+
+
+html {
+	font-family: "Century Gothic", "游明朝", "Yu Mincho", serif;
+	-ms-overflow-style: none;	/* IE Edge */
+	scrollbar-width: none;		/* Firefox */
+}
+
+
+html::-webkit-scrollbar{		/* Chrome */
+  display: none;
+}
+
+#wrapperk {
+	width: 100%;
+	position: relative;
+}
+
+#wrapper {
+	width: 100%;
+	height: auto;
+}
+
+
+header {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+body {
+	color: #8D8D99;
+	font-size: 12px;
+	letter-spacing: 5px;
+	line-height: 2.0;
+}
+
+
+
+
+/********************************************/
+/******************************* header *****/
+/********************************************/
+
+
+#vegas {
+//	display: block;
+	width:100vw;
+	height:100vh;
+	position: relative;
+}
+
+
+#vegas h1 img {
+//	display: block;
+	width: 10%;
+	height: auto;
+	position: absolute;
+	top: 30px;	left: 30px;
+}
+
+
+
+nav {
+//	display: block;
+	position: fixed;
+	top: 30px;	right: 30px;
+	z-index: 100;
+}
+
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 140px;
+}
+
+
+nav li a {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: transparent;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+nav li a:hover{
+	color: #8D8D99;
+	transition: all 1s;
+}
+
+
+nav li a:hover span {
+	background-color: #8D8D99;
+	transition: 1s;
+}
+
+
+/***** ヘキサゴン指定 ***********************/
+
+
+nav span {
+	display: block;
+	position: relative;
+	width: 9px;			/* ヘキサゴンのサイズ指定 */
+	height: 17px;			/* ヘキサゴンのサイズ指定 */
+	background-color: #E6E6FA;
+	transform: rotate(30deg);
+}
+
+
+.span2 {
+	position: absolute;
+	top: 0;	right: 0;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-60deg);
+}
+
+
+.span3 {
+	position: absolute;
+	top: 0;	right: 0;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-60deg);
+}
+
+
+/***** ヘキサゴン指定 ***********************/
+
+
+.scroll {
+	font-size: 15px;
+}
+
+
+.scroll a {
+	display: inline-block;
+	position: absolute;
+	left: 40px;	bottom: 0;
+  	z-index: 2;
+  	padding: 10px 10px 110px;
+  	overflow: hidden;
+  	color: #8D8D99;
+  	font-size: 14px;
+  	font-family: 'Josefin Sans', sans-serif;
+  	line-height: 1;
+  	letter-spacing: .2em;
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	writing-mode: vertical-lr;
+}
+
+
+.scroll a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;	left: 50%;
+	width: 1px;
+	height: 100px;
+	background: #8D8D99;
+	animation: sdl 1.5s cubic-bezier(1, 0, 0, 1) infinite;
+}
+
+
+@keyframes sdl {
+0% {
+	transform: scale(1, 0);
+    transform-origin: 0 0;
+}
+50% {
+    transform: scale(1, 1);
+    transform-origin: 0 0;
+}
+50.1% {
+    transform: scale(1, 1);
+    transform-origin: 0 100%;
+}
+100% {
+    transform: scale(1, 0);
+    transform-origin: 0 100%;
+}
+}
+
+#kouji {
+	position: fixed;
+	z-index: 100;
+	right: 30px;
+	bottom: 30px;
+	width: 100px;
+	height: 70px;
+	background: #DAA520;
+	border: 5px double #FFF;
+	border-radius: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#kouji a {
+	text-decoration: none;
+	font-size: 11px;
+	color: white;
+	line-height: 20px;
+}
+
+/********************************************/
+/********************************* main *****/
+/********************************************/
+
+
+#main_box {
+	width: 100%;
+	position: relative;
+}
+
+
+/***** ▼ ABOUT *****************************/
+
+
+#about {
+//	display: block;
+	width: 100%;
+	margin: 200px 0 0 0;
+}
+
+
+/********************************************/
+/***** 他コンテンツでも共通で適用 ***********/
+
+
+h2 {
+	font-size: 25px;
+	font-weight: 800;
+	text-align: center;
+	width: 100%;
+	margin: 0 0 50px 0;
+}
+
+
+h2 span {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #8D8D99;
+}
+
+
+/********************************************/
+/********************************************/
+
+
+#about p {
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 0 0 0;
+}
+
+
+#about p span {
+	font-weight: bold;
+}
+
+
+/********************************************/
+/***** 他コンテンツでも共通で適用 ***********/
+
+
+.more {
+	width: 100px;
+	height: 30px;
+	margin: 30px auto;
+	text-align: center;
+	padding: 20px 0 0 3px;
+}
+
+
+.more a {
+	color: #DAA520;
+	font-size: 15px;
+	text-decoration: none;
+	border: 1px solid #DAA520;
+	background: #FFF;
+	padding: 10px 10px 13px 15px;
+}
+
+
+.more a:hover {
+	color: #FFF;
+	background: #DAA520;
+	transition: 0.3s;
+}
+
+
+/***************************** ▲ ABOUT *****/
+/***** ▼ PRODUCT ***************************/
+
+
+#product {
+//	display: block;
+	width: 100%;
+	margin: 200px 0 0 0;
+}
+
+
+.banner {
+	display: flex;
+	justify-content: space-between;
+	width: 41%;
+	margin: 0 auto;
+	gap: 20px;
+}
+
+
+.banner a {
+	padding: 15px 0 0 0;
+	width: calc (50% - 10px);
+}
+
+
+.banner a img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*************************** ▲ PRODUCT *****/
+/***** ▼ INFO ******************************/
+
+
+#info {
+//	display: block;
+	width: 100%;
+	margin: 200px 0 0 0;
+}
+
+
+.info_box {
+	display: flex;
+	justify-content: center;
+	width: 45%;
+	margin: 0 auto;
+	background-color: #E6E6FA;
+	border-radius: 20px;
+	padding-bottom: 10px;
+}
+
+
+.info_box a {
+	color: #8D8D99;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 5.0;
+}
+
+
+.data span{
+	border-bottom: 1px solid #8D8D99;
+	padding-bottom: 10px;
+}
+
+
+ul p {
+	line-height: 5.0;
+	padding-left: 20px;
+}
+
+
+
+/****************************** ▲ INFO *****/
+/***** ▼ COLUMN ****************************/
+
+
+#column {
+//	display: block;
+	width: 100%;
+	margin: 200px 0 0 0;
+}
+
+
+#column_box {
+	display: flex;
+	justify-content: space-between;
+	width: 65%;
+	margin: 0 auto;
+}
+
+
+section {
+	width: 30%;
+	height: 500px;
+	border: 2px solid #DAA520;
+	border-radius: 20px;
+}
+
+
+.photo {
+	width: 100%;
+	height: 49%;
+}
+
+
+.photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 18px 18px 0 0;
+}
+
+
+.text {
+	width: 100%;
+	height: 50%;
+}
+
+
+h3 {
+	color: #DAA520;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 0 0 15px;
+}
+
+
+.text p {
+	padding: 10px 10px 5px 15px;
+}
+
+
+.text a {
+	text-decoration: none;
+}
+
+
+/**************************** ▲ COLUMN *****/
+/***** ▼ SHOP ******************************/
+
+
+#shop {
+	display: flow-root;
+	width: 50%;
+	margin: 200px auto 0 auto;
+}
+
+
+.left {
+	width: 49%;
+	float: left;
+}
+
+
+.left img {
+	width: 90%;
+}
+
+
+.right {
+	width: 50%;
+	float: left;
+}
+
+
+.right p {
+	font-size: 10px;
+}
+
+
+.right h4 {
+	color: #DAA520;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.list {
+	display: flex;
+	margin: 20px 0 200px 0;
+}
+
+
+.list_left {
+	width: 25%; 
+}
+
+
+.list_right {
+	width: 74%;
+}
+
+
+/********************************************/
+/******************************* footer *****/
+/********************************************/
+
+
+#footer {
+	width: 100%;
+	height: 520px;
+	background: #E6E6FA;
+}
+
+
+#ft_box {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	color: #8D8D99;
+}
+
+
+#ft_cg,#ft_cm,#ft_pp {
+	margin-top: 85px;
+}
+
+
+#ft_cg ul,#ft_cm ul {
+	padding-top: 30px;
+}
+
+
+#ft_cg {
+	width: 20%;
+}
+
+
+#ft_cm {
+	margin-left: 100px;
+	width: 20%;
+}
+
+
+.icon {
+	margin-right: 18px;
+	width: 25px;
+	height: auto;
+}
+
+
+.yt {
+	width: 30px;
+	height: auto;
+}
+
+
+#ft_pp {
+	margin-left: 230px;
+	width: 23%;
+}
+
+
+#ft_pp img {
+	margin-top: 40px;
+	width: 200px;
+	height: auto;
+}
+
+
+#ft_box h5 {
+	font-size: 18px;
+	line-height: 40px;
+	border-bottom: 1px solid #8D8D99;
+}
+
+
+#ft_box ul {
+	list-style-type: none;
+}
+
+
+#ft_box a {
+	text-decoration: none;
+	color: #8D8D99;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+
+#sns {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+
+#ft_pp img {
+	width: 80%;
+}
+
+
+#cr {
+	margin: 60px auto 0;
+	width: 70%;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+
+.bold {
+	font-family: "century gothic",sans-serif;
+	font-weight: bold;
+}
+
+
+.regu {
+	font-family: "century gothic",sans-serif;
+	font-weight: regular;
+}
+
+
+/********************************************/
+/***** ▼ TOPにもどる ***********************/
+
+
+.rtn {
+	position: fixed;
+	z-index: 10000;
+	right: 60px;
+	bottom: 60px;
+	transform: rotate(-40deg);
+}
+
+
+.arrow {
+	position: relative;
+	padding-left: 30px;
+}
+
+
+#rtn a {
+	display: block;
+	width: 30px;
+	height: 40px;
+}
+
+
+.arrow::before { /* くの字の表示設定 */
+	content: "";
+	position: absolute;
+	bottom: -19px; /* 要素の下からの距離 */
+	left: 60px;
+	width: 14px;
+	height: 14px;
+	border-right: 1px solid #FFF;
+	transform: rotate(-5deg); /* 棒の角度調整 */
+}
+ 
+ 
+.arrow::after { /* 棒の表示設定 */
+	content: "";
+	position: absolute;
+	bottom: -18px; /* 要素の下からの距離 */
+	left: 46px;
+	width: 35px;
+	height: 1px;
+	background: #FFF;
+	transform: rotate(130deg); /* 棒の角度調整 */
+}

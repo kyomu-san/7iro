@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 100%;
+	color: #8d8d99;
+	background-color: #FFF;
+	font-family: "游明朝",'Yu Mincho',YuMincho,/* Windows用 */serif;
+}
+
+#wrapper{
+	width: 100%;
+}
+
+#header{
+	width: 100%;
+	position: relative;
+}
+
+#header nav{
+	background-color: #8d8d99;
+	line-height: 2;
+	font-family: "Century Gothic","ＭＳ Ｐゴシック", "MS PGothic", "Yu Gothic UI", "游ゴシック";
+}
+
+
+#gbnav ul{
+	display:flex;
+	width:30%;
+	justify-content: space-evenly;
+	color: #FFF;		
+}
+
+#earth{
+	width: 1em;
+	height: 1em;
+}
+
+ul a:link{
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul a:visited{
+	color: #FFF;
+}
+
+article{
+	background-color: #87ceeb;
+	color: #FFF;
+	text-align: center;
+	font-size: 1em;
+}
+
+article span{
+	font-family:"游明朝",'Yu Mincho',YuMincho,/* Windows用 */serif;
+	font-size: 1.5em;
+	line-height: 2;
+}
+
+.header_area{
+	display: flex;
+}
+
+.header_area h1 img{
+	width: 70%;
+	padding-left: 100%;
+}
+
+.header_content{
+	display: flex;
+	align-items: flex-end;
+	padding-left: 32%; 
+}
+
+.search_form{
+	width: 200px;
+	margin: 0 auto;
+}
+
+#search .search_icon{
+	width: 1.6em;
+	height: 1.6em;
+}
+
+.icons{
+	display:flex;
+	justify-content: space-between;
+	width:10%;
+	position:absolute;
+	right:10%;		
+}
+
+.icons a img{
+	width: 1.5em;
+	height: 1.5em;
+	justify-content: space-between;
+}
+
+.select_area{
+	display: flex;
+	justify-content: center;
+	font-family:"游明朝";
+	line-height: 2em;
+	border-top: solid 1px #87ceeb;
+	border-bottom: solid 1px #87ceeb;
+	margin-top:1em;
+}
+
+.select-btn{
+	background-color: transparent;
+	border: none;
+}
+
+.main_area{
+	margin-top: 10%;
+	margin-bottom: 12%;
+}
+
+.main_word{
+	width: 100%;
+	display: flex;
+}
+
+.haguruma{
+	margin: 0 auto;
+	}
+
+#haguruma_1{}
+
+#haguruma_2{}
+
+h2{
+	font-size:2.1em; 
+	line-height:168%;
+}
+
+.main_area p{
+	text-align: center;
+	line-height:160%;
+	
+}
+
+#footer {
+	width: 100%;
+	color: #FFF;
+	letter-spacing: 3px;
+	background: #8D8D99;
+}
+
+#ft_box {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+
+#ft_cg,#ft_cm,#ft_pp {
+	margin-top: 85px;
+}
+
+#ft_cg ul,#ft_cm ul {
+	padding-top: 30px;
+}
+
+#ft_cg {
+	width: 20%;
+}
+
+#ft_cm {
+	margin-left: 100px;
+	width: 20%;
+}
+
+.icon {
+	margin-right: 18px;
+	width: 25px;
+	height: auto;
+}
+
+.yt {
+	width: 30px;
+	height: auto;
+}
+
+#ft_pp {
+	margin-left: 230px;
+	width: 23%;
+}
+
+#ft_pp img {
+	margin-top: 40px;
+	width: 200px;
+	height: auto;
+}
+
+#ft_box h5 {
+	font-size: 18px;
+	line-height: 40px;
+	border-bottom: 1px solid #FFF;
+}
+
+#ft_box ul {
+	list-style-type: none;
+}
+
+#ft_box a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+#sns {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+#ft_pp img {
+	margin: px;
+}
+
+#cr {
+	margin: 60px auto 0;
+	width: 70%;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.bold {
+	font-family: "century gothic",sans-serif;
+	font-weight: bold;
+}
+
+.regu {
+	font-family: "century gothic",sans-serif;
+	font-weight: regular;
+}

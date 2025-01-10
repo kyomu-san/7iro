@@ -1,0 +1,742 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/***** キラキラ指定　****************************************/
+
+.a {
+  animation: flash1 5s linear infinite;
+}
+
+.b {
+  animation: flash2 5s linear infinite;
+}
+
+.c {
+  animation: flash3 5s linear infinite;
+}
+
+.d {
+  animation: flash4 5s linear infinite;
+}
+
+.e {
+  animation: flash5 5s linear infinite;
+}
+
+@keyframes flash1{
+    0%{opacity:0}
+    20%{opacity:1}
+    80%{opacity:1}
+    100%{opacity:0}
+}
+
+@keyframes flash2{
+    0%{opacity:0.4}
+    30%{opacity:1}
+    80%{opacity:0}
+    100%{opacity:0.4}
+}
+
+@keyframes flash3{
+    0%{opacity:0.6}
+    20%{opacity:1}
+    70%{opacity:0}
+    100%{opacity:0.6}
+}
+
+@keyframes flash4{
+    0%{opacity:0.8}
+    10%{opacity:1}
+    60%{opacity:0}
+    100%{opacity:0.8}
+}
+
+@keyframes flash5{
+    0%{opacity:0.3}
+    35%{opacity:1}
+    85%{opacity:0}
+    100%{opacity:0.3}
+}
+
+/***** 個別位置指定　ABOUT ****************************************/
+
+#al01 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 12%;
+	top: 74%;
+	transform: rotate(0deg);
+}
+
+#al02 {
+	position: absolute;
+	width: 28px;
+	height: auto;
+	left: 6%;
+	top: 10%;
+	transform: rotate(40deg);
+}
+
+#al03 {
+	position: absolute;
+	width: 19px;
+	height: auto;
+	left: 16%;
+	top: 97%;
+	transform: rotate(122deg);
+}
+
+#al04 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	left: 9%;
+	top: 68%;
+	transform: rotate(62deg);
+}
+
+#al05 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	left: 11%;
+	top: 0%;
+	transform: rotate(111deg);
+}
+
+#al06 {
+	position: absolute;
+	width: 17px;
+	height: auto;
+	left: 14%;
+	top: 30%;
+	transform: rotate(89deg);
+}
+
+#al07 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 16%;
+	top: 8%;
+	transform: rotate(173deg);
+}
+
+#al08 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	left: 10%;
+	top: 39%;
+	transform: rotate(44deg);
+}
+
+#al09 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	left: 7%;
+	top: 55%;
+	transform: rotate(63deg);
+}
+
+/**********************************************************/
+
+#br01 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 17%;
+	top: 0%;
+	transform: rotate(22deg);
+}
+
+#br02 {
+	position: absolute;
+	width: 19px;
+	height: auto;
+	right: 15%;
+	top: 22%;
+	transform: rotate(121deg);
+}
+
+#br03 {
+	position: absolute;
+	width: 25px;
+	height: auto;
+	right: 12%;
+	top: 16%;
+	transform: rotate(56deg);
+}
+
+#br04 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	right: 6%;
+	top: 30%;
+	transform: rotate(81deg);
+}
+
+
+#br05 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	right: 7%;
+	top: 42%;
+	transform: rotate(143deg);
+}
+
+#br06 {
+	position: absolute;
+	width: 16px;
+	height: auto;
+	right: 6%;
+	top: 72%;
+	transform: rotate(62deg);
+}
+
+#br07 {
+	position: absolute;
+	width: 18px;
+	height: auto;
+	right: 4%;
+	top: 84%;
+	transform: rotate(100deg);
+}
+
+#br08 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	right: 12%;
+	top: 78%;
+	transform: rotate(89deg);
+}
+
+#br09 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 17%;
+	top: 92%;
+	transform: rotate(77deg);
+}
+
+/**********************************************************/
+
+#cl01 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 4%;
+	top: 44%;
+	transform: rotate(34deg);
+}
+
+#cl02 {
+	position: absolute;
+	width: 24px;
+	height: auto;
+	left: 6%;
+	top: 30%;
+	transform: rotate(159deg);
+}
+
+#cl03 {
+	position: absolute;
+	width: 19px;
+	height: auto;
+	left: 7%;
+	top: 90%;
+	transform: rotate(112deg);
+}
+
+#cl04 {
+	position: absolute;
+	width: 25px;
+	height: auto;
+	left: 11%;
+	top: 58%;
+	transform: rotate(77deg);
+}
+
+#cl05 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 14%;
+	top: 0%;
+	transform: rotate(46deg);
+}
+
+#cl06 {
+	position: absolute;
+	width: 17px;
+	height: auto;
+	left: 15%;
+	top: 22%;
+	transform: rotate(133deg);
+}
+
+#cl07 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	left: 17%;
+	top: 72%;
+	transform: rotate(55deg);
+}
+
+#cl08 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	left: 11%;
+	top: 12%;
+	transform: rotate(111deg);
+}
+
+#cl09 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	left: 4%;
+	top: 72%;
+	transform: rotate(66deg);
+}
+
+#cl10 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	left: 22%;
+	top: 98%;
+	transform: rotate(88deg);
+}
+
+/**********************************************************/
+
+#dr01 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	right: 22%;
+	top: 87%;
+	transform: rotate(144deg);
+}
+
+#dr02 {
+	position: absolute;
+	width: 18px;
+	height: auto;
+	right: 19%;
+	top: 98%;
+	transform: rotate(16deg);
+}
+
+#dr03 {
+	position: absolute;
+	width: 24px;
+	height: auto;
+	right: 17%;
+	top: 72%;
+	transform: rotate(88deg);
+}
+
+#dr04 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 12%;
+	top: 80%;
+	transform: rotate(131deg);
+}
+
+#dr05 {
+	position: absolute;
+	width: 19px;
+	height: auto;
+	right: 12%;
+	top: 54%;
+	transform: rotate(99deg);
+}
+
+#dr06 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 9%;
+	top: 39%;
+	transform: rotate(48deg);
+}
+
+#dr07 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	right: 6%;
+	top: 11%;
+	transform: rotate(129deg);
+}
+
+#dr08 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	right: 9%;
+	top: 21%;
+	transform: rotate(13deg);
+}
+
+#dr09 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	right: 15%;
+	top: 99%;
+	transform: rotate(125deg);
+}
+
+/***** 個別位置指定　CONTACT ****************************************/
+
+#xl01 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	left: 17%;
+	bottom: 4%;
+	transform: rotate(125deg);
+}
+
+#xl02 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	left: 15%;
+	bottom: 14%;
+	transform: rotate(88deg);
+}
+
+#xl03 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	left: 13%;
+	bottom: 3%;
+	transform: rotate(101deg);
+}
+
+#xl04 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 6%;
+	bottom: 14%;
+	transform: rotate(72deg);
+}
+
+#xl05 {
+	position: absolute;
+	width: 19px;
+	height: auto;
+	left: 7%;
+	bottom: 21%;
+	transform: rotate(149deg);
+}
+
+#xl06 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	left: 10%;
+	bottom: 39%;
+	transform: rotate(92deg);
+}
+
+#xl07 {
+	position: absolute;
+	width: 20px;
+	height: auto;
+	left: 16%;
+	bottom: 59%;
+	transform: rotate(131deg);
+}
+
+#xl08 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 12%;
+	bottom: 45%;
+	transform: rotate(33deg);
+}
+
+#xl09 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	left: 9%;
+	bottom: 57%;
+	transform: rotate(88deg);
+}
+
+/*****************************************/
+
+#xr01 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	right: 17%;
+	top: 62%;
+	transform: rotate(25deg);
+}
+
+#xr02 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	right: 15%;
+	top: 52%;
+	transform: rotate(67deg);
+}
+
+#xr03 {
+	position: absolute;
+	width: 18px;
+	height: auto;
+	right: 8%;
+	top: 46%;
+	transform: rotate(138deg);
+}
+
+#xr04 {
+	position: absolute;
+	width: 24px;
+	height: auto;
+	right: 6%;
+	top: 55%;
+	transform: rotate(81deg);
+}
+
+#xr05 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	right: 7%;
+	top: 39%;
+	transform: rotate(48deg);
+}
+
+#xr06 {
+	position: absolute;
+	width: 25px;
+	height: auto;
+	right: 10%;
+	top: 22%;
+	transform: rotate(134deg);
+}
+
+#xr07 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	right: 8%;
+	top: 12%;
+	transform: rotate(83deg);
+}
+
+#xr08 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 7%;
+	top: 0%;
+	transform: rotate(141deg);
+}
+
+#xr09 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	right: 5%;
+	top: 17%;
+	transform: rotate(56deg);
+}
+
+/*****************************************/
+
+#yl01 {
+	position: absolute;
+	width: 25px;
+	height: auto;
+	left: 17%;
+	bottom: 4%;
+	transform: rotate(39deg);
+}
+
+#yl02 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 15%;
+	bottom: 15%;
+	transform: rotate(129deg);
+}
+
+#yl03 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	left: 13%;
+	bottom: 2%;
+	transform: rotate(78deg);
+}
+
+#yl04 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	left: 6%;
+	bottom: 13%;
+	transform: rotate(7deg);
+}
+
+#yl05 {
+	position: absolute;
+	width: 20px;
+	height: auto;
+	left: 7%;
+	bottom: 22%;
+	transform: rotate(166deg);
+}
+
+#yl06 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	left: 10%;
+	bottom: 41%;
+	transform: rotate(40deg);
+}
+
+#yl07 {
+	position: absolute;
+	width: 24px;
+	height: auto;
+	left: 15%;
+	bottom: 56%;
+	transform: rotate(136deg);
+}
+
+#yl08 {
+	position: absolute;
+	width: 26px;
+	height: auto;
+	left: 12%;
+	bottom: 44%;
+	transform: rotate(74deg);
+}
+
+#yl09 {
+	position: absolute;
+	width: 19px;
+	height: auto;
+	left: 12%;
+	bottom: 59%;
+	transform: rotate(121deg);
+}
+
+#yl10 {
+	position: absolute;
+	width: 24px;
+	height: auto;
+	left: 17%;
+	bottom: 69%;
+	transform: rotate(66deg);
+}
+
+/*****************************************/
+
+#yr01 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	right: 17%;
+	top: 69%;
+	transform: rotate(46deg);
+}
+
+#yr02 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 15%;
+	top: 58%;
+	transform: rotate(98deg);
+}
+
+#yr03 {
+	position: absolute;
+	width: 24px;
+	height: auto;
+	right: 8%;
+	top: 46%;
+	transform: rotate(170deg);
+}
+
+#yr04 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 6%;
+	top: 56%;
+	transform: rotate(62deg);
+}
+
+#yr05 {
+	position: absolute;
+	width: 21px;
+	height: auto;
+	right: 7%;
+	top: 40%;
+	transform: rotate(83deg);
+}
+
+#yr06 {
+	position: absolute;
+	width: 27px;
+	height: auto;
+	right: 10%;
+	top: 22%;
+	transform: rotate(146deg);
+}
+
+#yr07 {
+	position: absolute;
+	width: 25px;
+	height: auto;
+	right: 8%;
+	top: 13%;
+	transform: rotate(12deg);
+}
+
+#yr08 {
+	position: absolute;
+	width: 22px;
+	height: auto;
+	right: 12%;
+	top: 2%;
+	transform: rotate(133deg);
+}
+
+#yr09 {
+	position: absolute;
+	width: 23px;
+	height: auto;
+	right: 4%;
+	top: 15%;
+	transform: rotate(79deg);
+}

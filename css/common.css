@@ -1,0 +1,112 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/********************************************/
+/***************************** 全体指定 *****/
+/********************************************/
+
+
+html {
+	font-family: "Century Gothic", "游明朝", "Yu Mincho", serif;
+	-ms-overflow-style: none;	/* IE Edge */
+	scrollbar-width: none;		/* Firefox */
+}
+
+
+html::-webkit-scrollbar{		/* Chrome */
+  display: none;
+}
+
+
+
+
+
+/********************************************/
+/***************************** ヘッダー *****/
+/********************************************/
+
+
+header {
+	width: 100%;
+	height: 200px;
+}
+
+header img {
+	margin: 20px 0 0 20px;
+	width: 10%;
+	height: auto;
+}
+
+.nav {
+//	display: block;
+	position: fixed;
+	top: 30px;	right: 30px;
+	z-index: 10000;
+}
+
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 140px;
+}
+
+
+nav li a {
+	display: flex;
+	justify-content: flex-end;
+	color: transparent;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-family: "Century Gothic", serif;
+}
+
+
+nav li a:hover{
+	color: #8D8D99;
+	transition: all 1s;
+}
+
+
+nav li a:hover span {
+	background-color: #8D8D99;
+	transition: 1s;
+}
+
+
+/***** ヘキサゴン指定 ***********************/
+
+
+nav span {
+	display: block;
+	position: relative;
+	width: 9px;			/* ヘキサゴンのサイズ指定 */
+	height: 17px;			/* ヘキサゴンのサイズ指定 */
+	background-color: #E6E6FA;
+	transform: rotate(30deg);
+}
+
+
+.span2 {
+	position: absolute;
+	top: 0;	right: 0;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-60deg);
+}
+
+
+.span3 {
+	position: absolute;
+	top: 0;	right: 0;
+	width: 100%;
+	height: 100%;
+	transform: rotate(-60deg);
+}
+
+
+
